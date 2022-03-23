@@ -4,19 +4,20 @@ public class vowel
 public static void main(String args[])
 {
 Scanner in=new Scanner(System.in);
-String Str=in.nextLine();
-System.out.print("Number of vowels in the string"+Countvowels(str));
+System.out.print("Enter a string");
+String str=in.nextLine();
+System.out.print("Number of vowels in the string"+countVowels(str));
 }
-public static int Countvowels( string str)
+public static int countVowels(String str)
 {
-int Count=0;
-for(int i=0;i<Str.Length();i++)
+int count=0;
+for(int i=0;i<str.length();i++)
 {
-if(Str.charAt(i)=='a'||Str.charAt(i)=='e'||Str.charAt(i)=='i'||Str.charAt(i)=='o'||Str.charAt(i)=='u')
+if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u')
 {
-Count++;
+count++;
 }
 }
-return Count;
+return count;
 }
 }
