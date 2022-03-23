@@ -1,20 +1,20 @@
 import java.util.*;
 public class vowel
 {
-public static void main(Strings args[])
+public static void main(String args[])
 {
 Scanner in=new Scanner(System.in);
-String str=in.nextline();
+String Str=in.nextLine();
 System.out.print("Number of vowels in the string"+Countvowels(str));
 }
 public static int Countvowels( string str)
 {
 int Count=0;
-for(int i=0;i<str.length();i++)
+for(int i=0;i<Str.Length();i++)
 {
-if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u')
+if(Str.charAt(i)=='a'||Str.charAt(i)=='e'||Str.charAt(i)=='i'||Str.charAt(i)=='o'||Str.charAt(i)=='u')
 {
-count++;
+Count++;
 }
 }
 return Count;
