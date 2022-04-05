@@ -13,6 +13,6 @@ while(num!=0)
     rev=rev+num%10;
     num=num/10;
 }
-System.out.println("Reverse of num is:"+rev);
+System.out.println("Reverse of number is:"+rev);
 }
 }
