@@ -1,7 +1,23 @@
 import java.util.*;
 public class product
 {
-static Product(String pname,String pcode,int price)
+String pname,pcode;
+int price;
+
+public String getPname(){
+return pname;
+}
+
+public String getPcode(){
+return pcode;
+}
+
+public String getPname(){
+return pname;
+}
+
+
+public product(String pname,Sting pcode,int price)
 {
 this.pname=pname ;
 this.pcode=pcode ;
