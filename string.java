@@ -32,7 +32,7 @@ public class string
                 other++;
             }
         }
-        System.out.println("The string is:"+test);
+        System.out.println("The string is:"+x);
         System.out.println("Letter:"+letter);
         System.out.println("Number:"+num);
         System.out.println("Other:"+other);
