@@ -29,11 +29,11 @@ class ProductPrice
 		System.out.println("Enter the product details:");
 		
 		for(int i = 0; i<3; i++){
-			System.out.print("Code product " + (i+1) + ": ");
+			System.out.print("Code of product " + (i+1) + ": ");
 			code = Integer.parseInt(sc.nextLine());
-			System.out.print("Name product " + (i+1) + ": ");
+			System.out.print("Name of product " + (i+1) + ": ");
 			name = sc.nextLine();
-			System.out.print("Price product " + (i+1) + ": ");
+			System.out.print("Price of product " + (i+1) + ": ");
 			price = Double.parseDouble(sc.nextLine());
 			prd[i] = new ProductPrice(code, name, price);
 		}
