@@ -49,10 +49,11 @@ class maxno extends Frame{
 		setSize(400,400);
 		setVisible(true);
 		b1.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
 			int a=Integer.parseInt(tf1.getText());
 			int b=Integer.parseInt(tf2.getText());
 			int c=Integer.parseInt(tf3.getText());
-			if(a>b && a>c)
+			if (a>b && a>c)
 			{
 				l4.setText("Maximum="+String.ValueOf(a));
 			}
