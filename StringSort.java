@@ -7,10 +7,9 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter the number of strings:");
 int max=Integer.parseInt(sc.nextLine());
 String[]str=new String[max];
-System.out.println("Enter the numbers:");
+System.out.println("Enter the Strings:");
 for(int i=0;i<max;i++)
 {
-System.out.print(i+":");
 str[i]=sc.nextLine();
 }
 System.out.println("Before sort:");

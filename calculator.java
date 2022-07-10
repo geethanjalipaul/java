@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.applet.*;
 import java.awt.event.*;
 public class calculator implements ActionListener
 {
@@ -9,7 +10,7 @@ public class calculator implements ActionListener
 	Panel p;
 	TextField tf;
 	GridLayout g;
-	calculator()
+	public calculator()
 	{
 		f=new Frame("My Calculator");
 		p=new Panel();

@@ -5,21 +5,21 @@ public class mapinterface {
 		
 		Map<String,Integer> map = new HashMap<>();
 
-		 map.put("orange", 10);
-        map.put("onion", 30);
-        map.put("apples", 20);
+		 map.put("pencil", 10);
+        map.put("pen", 30);
+        map.put("eraser", 20);
 System.out.println("Original Map:");
 for (Map.Entry<String, Integer> e : map.entrySet())
   
             System.out.println(e.getKey() + " "
                                + e.getValue());
-map.remove("onion");
-System.out.println("map after removing onion:");
+map.remove("pen");
+System.out.println("map after removing pen:");
 for (Map.Entry<String, Integer> e : map.entrySet())
   
             System.out.println(e.getKey() + " "
                                + e.getValue());
-map.replace("apples",300);
+map.replace("pencil",50);
 System.out.println("Original Map:");
 for (Map.Entry<String, Integer> e : map.entrySet())
   
